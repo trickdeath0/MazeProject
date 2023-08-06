@@ -1,0 +1,679 @@
+2022.07.01 09:37:16.949 INFO  Server.Server - Starting server at port = 5401
+2022.07.01 09:37:16.949 INFO  Server.Server - Starting server at port = 5400
+2022.07.01 09:37:17.954 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:17.954 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:18.955 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:18.956 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:19.956 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:19.957 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:20.676 INFO  Server.Server - Client accepted: Socket[addr=/192.168.248.2,port=59950,localport=5400]
+2022.07.01 09:37:20.685 INFO  Server.Server - Done handling client: Socket[addr=/192.168.248.2,port=59950,localport=5400]
+2022.07.01 09:37:20.957 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:21.676 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:21.957 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:22.677 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:22.958 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:23.678 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:23.959 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:24.236 INFO  Server.Server - Client accepted: Socket[addr=/192.168.248.2,port=59951,localport=5401]
+2022.07.01 09:37:24.248 INFO  Server.Server - Done handling client: Socket[addr=/192.168.248.2,port=59951,localport=5401]
+2022.07.01 09:37:24.678 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:25.236 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:25.679 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:26.236 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:26.681 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:27.238 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:27.682 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:28.237 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:28.682 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:29.238 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:29.682 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:30.239 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:30.684 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:31.240 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:31.685 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:32.241 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:32.687 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:33.241 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:33.686 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:34.242 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:34.688 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:35.242 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:35.648 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[PartBWithMaven.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.01 09:37:35.648 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[PartBWithMaven.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.01 09:37:35.688 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:36.242 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:36.689 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:37.243 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:37.689 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:38.246 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:38.690 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:39.245 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:39.690 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:40.247 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:40.691 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:41.247 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:41.694 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:42.248 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:42.694 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:43.248 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:43.694 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:44.248 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:44.697 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:45.248 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:45.697 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:46.249 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:46.338 INFO  Server.Server - Client accepted: Socket[addr=/192.168.248.2,port=59953,localport=5400]
+2022.07.01 09:37:46.340 INFO  Server.Server - Done handling client: Socket[addr=/192.168.248.2,port=59953,localport=5400]
+2022.07.01 09:37:47.250 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:47.339 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:48.250 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:48.339 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:49.251 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:49.340 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:50.252 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:50.341 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:50.717 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[PartBWithMaven.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.01 09:37:50.717 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[PartBWithMaven.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.01 09:37:51.252 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:51.342 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:52.254 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:52.342 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:53.253 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:53.342 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:54.256 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:54.343 DEBUG Server.Server - Socket timeout
+2022.07.01 09:37:54.516 INFO  Server.Server - Stopping server...
+2022.07.01 09:37:54.516 INFO  Server.Server - Stopping server...
+2022.07.01 15:13:53.096 INFO  Server.Server - Starting server at port = 5400
+2022.07.01 15:13:53.096 INFO  Server.Server - Starting server at port = 5401
+2022.07.01 15:13:54.101 DEBUG Server.Server - Socket timeout
+2022.07.01 15:13:54.101 DEBUG Server.Server - Socket timeout
+2022.07.01 15:13:55.103 DEBUG Server.Server - Socket timeout
+2022.07.01 15:13:55.104 DEBUG Server.Server - Socket timeout
+2022.07.01 15:13:56.105 DEBUG Server.Server - Socket timeout
+2022.07.01 15:13:56.105 DEBUG Server.Server - Socket timeout
+2022.07.01 15:13:57.106 DEBUG Server.Server - Socket timeout
+2022.07.01 15:13:57.106 DEBUG Server.Server - Socket timeout
+2022.07.01 15:13:58.107 DEBUG Server.Server - Socket timeout
+2022.07.01 15:13:58.107 DEBUG Server.Server - Socket timeout
+2022.07.01 15:13:58.634 INFO  Server.Server - Client accepted: Socket[addr=/192.168.248.2,port=49322,localport=5400]
+2022.07.01 15:13:58.645 INFO  Server.Server - Done handling client: Socket[addr=/192.168.248.2,port=49322,localport=5400]
+2022.07.01 15:13:59.108 DEBUG Server.Server - Socket timeout
+2022.07.01 15:13:59.634 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:00.109 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:00.635 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:01.109 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:01.637 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:02.110 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:02.638 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:03.110 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:03.639 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:04.111 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:04.639 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:05.111 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:05.639 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:06.113 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:06.641 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:07.113 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:07.642 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:08.113 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:08.644 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:09.114 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:09.644 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:10.115 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:10.645 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:11.117 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:11.647 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:12.118 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:12.648 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:13.119 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:13.649 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:14.119 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:14.649 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:15.120 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:15.651 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:15.875 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[PartBWithMaven.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.01 15:14:15.875 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[PartBWithMaven.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.01 15:14:16.121 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:16.653 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:17.121 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:17.655 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:18.122 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:18.656 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:19.124 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:19.657 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:20.126 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:20.658 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:21.126 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:21.658 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:22.128 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:22.658 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:23.129 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:23.660 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:24.081 INFO  Server.Server - Client accepted: Socket[addr=/192.168.248.2,port=49336,localport=5400]
+2022.07.01 15:14:24.084 INFO  Server.Server - Done handling client: Socket[addr=/192.168.248.2,port=49336,localport=5400]
+2022.07.01 15:14:24.130 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:25.081 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:25.130 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:26.082 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:26.131 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:27.082 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:27.132 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:27.649 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[PartBWithMaven.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.01 15:14:27.649 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[PartBWithMaven.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.01 15:14:28.084 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:28.133 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:29.038 INFO  Server.Server - Client accepted: Socket[addr=/192.168.248.2,port=49339,localport=5400]
+2022.07.01 15:14:29.040 INFO  Server.Server - Done handling client: Socket[addr=/192.168.248.2,port=49339,localport=5400]
+2022.07.01 15:14:29.133 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:30.038 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:30.133 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:31.039 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:31.135 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:32.040 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:32.135 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:33.040 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:33.136 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:34.042 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:34.136 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:35.042 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:35.137 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:36.043 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:36.138 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:37.044 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:37.138 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:38.044 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:38.140 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:39.045 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:39.141 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:40.045 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:40.141 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:41.048 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:41.142 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:42.049 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:42.144 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:43.049 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:43.145 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:44.051 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:44.146 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:45.052 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:45.146 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:46.053 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:46.147 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:47.053 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:47.147 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:48.053 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:48.149 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:49.054 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:49.150 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:50.055 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:50.151 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:51.056 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:51.151 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:52.058 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:52.153 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:53.059 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:53.153 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:54.059 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:54.154 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:55.060 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:55.155 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:56.060 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:56.156 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:57.062 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:57.157 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:58.063 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:58.157 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:59.063 DEBUG Server.Server - Socket timeout
+2022.07.01 15:14:59.158 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:00.065 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:00.159 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:01.065 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:01.160 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:02.066 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:02.160 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:03.067 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:03.160 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:04.067 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:04.161 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:05.068 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:05.162 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:06.068 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:06.163 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:07.070 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:07.163 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:08.070 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:08.163 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:09.071 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:09.164 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:10.071 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:10.165 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:11.073 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:11.166 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:12.073 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:12.167 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:13.073 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:13.168 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:14.074 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:14.168 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:14.356 INFO  Server.Server - Client accepted: Socket[addr=/192.168.248.2,port=58658,localport=5401]
+2022.07.01 15:15:14.371 INFO  Server.Server - Done handling client: Socket[addr=/192.168.248.2,port=58658,localport=5401]
+2022.07.01 15:15:15.075 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:15.357 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:16.076 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:16.357 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:17.077 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:17.357 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:18.077 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:18.358 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:19.078 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:19.359 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:20.079 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:20.359 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:21.080 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:21.360 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:22.081 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:22.361 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:23.081 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:23.361 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:24.082 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:24.361 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:25.082 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:25.363 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:26.083 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:26.364 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:27.085 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:27.363 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:28.085 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:28.364 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:29.085 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:29.366 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:30.086 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:30.367 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:31.087 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:31.364 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[PartBWithMaven.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.01 15:15:31.364 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[PartBWithMaven.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.01 15:15:31.368 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:32.087 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:32.368 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:33.088 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:33.369 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:34.089 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:34.369 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:35.090 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:35.370 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:36.090 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:36.372 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:37.091 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:37.371 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:38.091 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:38.374 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:39.093 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:39.375 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:40.093 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:40.376 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:41.093 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:41.376 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:42.094 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:42.376 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:43.094 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:43.377 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:44.095 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:44.377 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:45.096 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:45.378 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:46.096 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:46.378 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:47.097 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:47.379 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:48.097 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:48.380 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:49.098 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:49.381 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:50.098 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:50.381 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:51.099 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:51.381 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:52.099 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:52.382 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:53.100 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:53.383 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:54.100 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:54.383 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:55.101 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:55.385 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:56.101 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:56.387 DEBUG Server.Server - Socket timeout
+2022.07.01 15:15:56.522 INFO  Server.Server - Stopping server...
+2022.07.01 15:15:56.522 INFO  Server.Server - Stopping server...
+2022.07.02 11:22:46.567 INFO  Server.Server - Starting server at port = 5400
+2022.07.02 11:22:46.567 INFO  Server.Server - Starting server at port = 5401
+2022.07.02 11:22:47.575 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:47.575 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:48.162 INFO  Server.Server - Client accepted: Socket[addr=/192.168.248.2,port=49502,localport=5400]
+2022.07.02 11:22:48.171 INFO  Server.Server - Done handling client: Socket[addr=/192.168.248.2,port=49502,localport=5400]
+2022.07.02 11:22:48.576 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:49.163 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:49.576 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:50.163 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:50.578 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:51.164 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:51.577 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:52.099 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[PartBWithMaven.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.02 11:22:52.099 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[PartBWithMaven.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.02 11:22:52.164 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:52.578 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:53.164 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:53.580 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:54.165 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:54.480 INFO  Server.Server - Client accepted: Socket[addr=/192.168.248.2,port=61089,localport=5400]
+2022.07.02 11:22:54.482 INFO  Server.Server - Done handling client: Socket[addr=/192.168.248.2,port=61089,localport=5400]
+2022.07.02 11:22:54.580 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:54.976 INFO  Server.Server - Client accepted: Socket[addr=/192.168.248.2,port=61090,localport=5401]
+2022.07.02 11:22:54.993 INFO  Server.Server - Done handling client: Socket[addr=/192.168.248.2,port=61090,localport=5401]
+2022.07.02 11:22:55.480 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:55.977 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:56.481 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:56.977 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:57.483 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:57.978 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:58.486 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:58.978 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:59.487 DEBUG Server.Server - Socket timeout
+2022.07.02 11:22:59.980 DEBUG Server.Server - Socket timeout
+2022.07.02 11:23:00.488 DEBUG Server.Server - Socket timeout
+2022.07.02 11:23:00.980 DEBUG Server.Server - Socket timeout
+2022.07.02 11:23:01.487 DEBUG Server.Server - Socket timeout
+2022.07.02 11:23:01.980 DEBUG Server.Server - Socket timeout
+2022.07.02 11:23:02.467 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[PartBWithMaven.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.02 11:23:02.467 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[PartBWithMaven.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.02 11:23:02.489 DEBUG Server.Server - Socket timeout
+2022.07.02 11:23:02.980 DEBUG Server.Server - Socket timeout
+2022.07.02 11:23:03.490 DEBUG Server.Server - Socket timeout
+2022.07.02 11:23:03.981 DEBUG Server.Server - Socket timeout
+2022.07.02 11:23:04.490 DEBUG Server.Server - Socket timeout
+2022.07.02 11:23:04.610 INFO  Server.Server - Stopping server...
+2022.07.02 11:23:04.610 INFO  Server.Server - Stopping server...
+2022.07.02 11:38:35.665 INFO  Server.Server - Starting server at port = 5401
+2022.07.02 11:38:35.665 INFO  Server.Server - Starting server at port = 5400
+2022.07.02 11:38:36.671 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:36.671 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:37.672 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:37.672 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:38.673 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:38.673 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:39.673 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:39.673 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:40.675 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:40.675 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:41.674 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:41.674 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:42.675 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:42.675 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:43.676 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:43.676 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:44.677 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:44.677 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:45.678 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:45.678 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:46.680 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:46.680 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:47.680 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:47.680 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:48.682 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:48.682 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:49.683 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:49.683 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:50.682 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:50.682 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:51.683 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:51.683 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:52.684 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:52.684 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:53.684 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:53.684 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:54.686 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:54.686 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:55.686 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:55.686 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:56.688 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:56.688 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:57.688 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:57.688 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:58.689 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:58.689 DEBUG Server.Server - Socket timeout
+2022.07.02 11:38:59.050 INFO  Server.Server - Client accepted: Socket[addr=/192.168.248.2,port=61279,localport=5400]
+2022.07.02 11:38:59.060 INFO  Server.Server - Done handling client: Socket[addr=/192.168.248.2,port=61279,localport=5400]
+2022.07.02 11:38:59.690 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:00.052 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:00.691 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:01.052 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:01.692 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:02.053 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:02.692 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:03.053 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:03.693 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:04.054 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:04.693 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:05.054 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:05.502 INFO  Server.Server - Client accepted: Socket[addr=/192.168.248.2,port=61280,localport=5401]
+2022.07.02 11:39:05.518 INFO  Server.Server - Done handling client: Socket[addr=/192.168.248.2,port=61280,localport=5401]
+2022.07.02 11:39:06.055 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:06.503 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:07.055 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:07.503 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:08.056 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:08.503 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:09.056 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:09.504 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:10.057 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:10.505 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:11.057 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:11.505 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:12.058 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:12.506 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:13.058 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:13.506 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:14.059 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:14.508 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:15.059 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:15.509 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:16.060 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:16.509 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:17.061 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:17.510 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:18.060 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:18.510 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:18.783 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[ATPProjectJAR.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.02 11:39:18.783 ERROR Server.Server - IOException
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:552) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:541) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643) ~[?:?]
+	at java.net.ServerSocket.bind(ServerSocket.java:395) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:281) ~[?:?]
+	at java.net.ServerSocket.<init>(ServerSocket.java:172) ~[?:?]
+	at Server.Server.lambda$start$1(Server.java:43) ~[ATPProjectJAR.jar:2.17.2]
+	at java.lang.Thread.run(Thread.java:831) ~[?:?]
+2022.07.02 11:39:19.060 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:19.511 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:20.061 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:20.511 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:21.062 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:21.512 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:22.063 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:22.512 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:23.064 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:23.512 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:24.064 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:24.513 DEBUG Server.Server - Socket timeout
+2022.07.02 11:39:24.611 INFO  Server.Server - Stopping server...
+2022.07.02 11:39:24.612 INFO  Server.Server - Stopping server...
+2022.07.02 11:54:25.675 INFO  Server.Server - Starting server at port = 5400
+2022.07.02 11:54:25.675 INFO  Server.Server - Starting server at port = 5401
+2022.07.02 11:54:26.682 DEBUG Server.Server - Socket timeout
+2022.07.02 11:54:26.682 DEBUG Server.Server - Socket timeout
+2022.07.02 11:54:27.663 INFO  Server.Server - Stopping server...
+2022.07.02 11:54:27.663 INFO  Server.Server - Stopping server...
+2022.07.02 12:00:55.952 INFO  Server.Server - Starting server at port = 5401
+2022.07.02 12:00:55.952 INFO  Server.Server - Starting server at port = 5400
+2022.07.02 12:00:56.958 DEBUG Server.Server - Socket timeout
+2022.07.02 12:00:56.958 DEBUG Server.Server - Socket timeout
+2022.07.02 12:00:57.958 DEBUG Server.Server - Socket timeout
+2022.07.02 12:00:57.958 DEBUG Server.Server - Socket timeout
+2022.07.02 12:00:58.958 DEBUG Server.Server - Socket timeout
+2022.07.02 12:00:58.959 DEBUG Server.Server - Socket timeout
+2022.07.02 12:00:59.172 INFO  Server.Server - Stopping server...
+2022.07.02 12:00:59.172 INFO  Server.Server - Stopping server...

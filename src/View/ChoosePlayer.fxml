@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane  prefHeight="200.0" prefWidth="500.0" style="-fx-background-image: url(/Images/choosePlayer.jpg);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.ChoosePlayer">
+   <children>
+      <Label id="Label_Invaild" layoutX="131.0" layoutY="24.0" text="Choose Player">
+         <font>
+            <Font name="Arial" size="38.0" />
+         </font>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.1040448322892189" green="0.40676575899124146" blue="0.8026315569877625" />
+               </color>
+            </DropShadow>
+         </effect></Label>
+      <Button layoutX="27.0" layoutY="97.0" mnemonicParsing="false" onAction="#Spongebob" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-background-image: url(/Images/player1.png);" />
+      <Button layoutX="121.0" layoutY="97.0" mnemonicParsing="false" onAction="#Petrick" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-background-image: url(/Images/player2.png);" />
+      <Button layoutX="216.0" layoutY="97.0" mnemonicParsing="false" onAction="#Squidward" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-background-image: url(/Images/player3.png);" />
+      <Button layoutX="314.0" layoutY="97.0" mnemonicParsing="false" onAction="#Mr_Krabs" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-background-image: url(/Images/player4.png);" />
+      <Button layoutX="410.0" layoutY="97.0" mnemonicParsing="false" onAction="#Plankton" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-background-image: url(/Images/player5.png);" />
+   </children>
+</AnchorPane>
